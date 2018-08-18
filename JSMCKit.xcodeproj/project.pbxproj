@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428295220FAFCE200DB90AB /* JSMCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428295120FAFCE200DB90AB /* JSMCKitTests.m */; };
+		0428295420FAFCE200DB90AB /* JSMCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB94591E1771E700EE8ECA /* JSMCKit.framework */; };
+		0446BDAC210595B70060ECEA /* keys.json in Resources */ = {isa = PBXBuildFile; fileRef = 0446BDAB210595B60060ECEA /* keys.json */; };
+		0446BDAD210595DC0060ECEA /* keys.json in Resources */ = {isa = PBXBuildFile; fileRef = 0446BDAB210595B60060ECEA /* keys.json */; };
+		04FB945E1E1771E700EE8ECA /* JSMCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB945C1E1771E700EE8ECA /* JSMCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FB94671E1772A200EE8ECA /* JSMC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB94651E1772A200EE8ECA /* JSMC.m */; };
+		04FB94701E177A3A00EE8ECA /* JSMC.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB94641E1772A200EE8ECA /* JSMC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0428295520FAFCE200DB90AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FB94501E1771E700EE8ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FB94581E1771E700EE8ECA;
+			remoteInfo = JWSMCKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428294F20FAFCE200DB90AB /* JSMCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSMCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428295120FAFCE200DB90AB /* JSMCKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMCKitTests.m; sourceTree = "<group>"; };
+		0428295320FAFCE200DB90AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446BDAB210595B60060ECEA /* keys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keys.json; sourceTree = "<group>"; };
+		04E3A7FB210592980003DBAB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB94591E1771E700EE8ECA /* JSMCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSMCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB945C1E1771E700EE8ECA /* JSMCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMCKit.h; sourceTree = "<group>"; };
+		04FB94641E1772A200EE8ECA /* JSMC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMC.h; sourceTree = "<group>"; };
+		04FB94651E1772A200EE8ECA /* JSMC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428294C20FAFCE200DB90AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428295420FAFCE200DB90AB /* JSMCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB94551E1771E700EE8ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428295020FAFCE200DB90AB /* JSMCKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0428295120FAFCE200DB90AB /* JSMCKitTests.m */,
+				0428295320FAFCE200DB90AB /* Info.plist */,
+			);
+			path = JSMCKitTests;
+			sourceTree = "<group>";
+		};
+		04FB944F1E1771E700EE8ECA = {
+			isa = PBXGroup;
+			children = (
+				04FB945B1E1771E700EE8ECA /* JSMCKit */,
+				0428295020FAFCE200DB90AB /* JSMCKitTests */,
+				04FB945A1E1771E700EE8ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FB945A1E1771E700EE8ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FB94591E1771E700EE8ECA /* JSMCKit.framework */,
+				0428294F20FAFCE200DB90AB /* JSMCKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FB945B1E1771E700EE8ECA /* JSMCKit */ = {
+			isa = PBXGroup;
+			children = (
+				0446BDAB210595B60060ECEA /* keys.json */,
+				04FB945C1E1771E700EE8ECA /* JSMCKit.h */,
+				04FB94641E1772A200EE8ECA /* JSMC.h */,
+				04FB94651E1772A200EE8ECA /* JSMC.m */,
+				04E3A7FB210592980003DBAB /* Info.plist */,
+			);
+			path = JSMCKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04FB94561E1771E700EE8ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB945E1E1771E700EE8ECA /* JSMCKit.h in Headers */,
+				04FB94701E177A3A00EE8ECA /* JSMC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0428294E20FAFCE200DB90AB /* JSMCKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428295920FAFCE200DB90AB /* Build configuration list for PBXNativeTarget "JSMCKitTests" */;
+			buildPhases = (
+				0428294B20FAFCE200DB90AB /* Sources */,
+				0428294C20FAFCE200DB90AB /* Frameworks */,
+				0428294D20FAFCE200DB90AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428295620FAFCE200DB90AB /* PBXTargetDependency */,
+			);
+			name = JSMCKitTests;
+			productName = JWSMCKitTests;
+			productReference = 0428294F20FAFCE200DB90AB /* JSMCKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FB94581E1771E700EE8ECA /* JSMCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB94611E1771E700EE8ECA /* Build configuration list for PBXNativeTarget "JSMCKit" */;
+			buildPhases = (
+				04FB94541E1771E700EE8ECA /* Sources */,
+				04FB94551E1771E700EE8ECA /* Frameworks */,
+				04FB94561E1771E700EE8ECA /* Headers */,
+				04FB94571E1771E700EE8ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSMCKit;
+			productName = JWSMCKit;
+			productReference = 04FB94591E1771E700EE8ECA /* JSMCKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FB94501E1771E700EE8ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jackw01;
+				TargetAttributes = {
+					0428294E20FAFCE200DB90AB = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					04FB94581E1771E700EE8ECA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9QXY7Q8ZUL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04FB94531E1771E700EE8ECA /* Build configuration list for PBXProject "JSMCKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04FB944F1E1771E700EE8ECA;
+			productRefGroup = 04FB945A1E1771E700EE8ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FB94581E1771E700EE8ECA /* JSMCKit */,
+				0428294E20FAFCE200DB90AB /* JSMCKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428294D20FAFCE200DB90AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446BDAD210595DC0060ECEA /* keys.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB94571E1771E700EE8ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446BDAC210595B70060ECEA /* keys.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428294B20FAFCE200DB90AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428295220FAFCE200DB90AB /* JSMCKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB94541E1771E700EE8ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB94671E1772A200EE8ECA /* JSMC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0428295620FAFCE200DB90AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FB94581E1771E700EE8ECA /* JSMCKit */;
+			targetProxy = 0428295520FAFCE200DB90AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0428295720FAFCE200DB90AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JSMCKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jrw.JWSMCKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0428295820FAFCE200DB90AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JSMCKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jrw.JWSMCKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04FB945F1E1771E700EE8ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04FB94601E1771E700EE8ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04FB94621E1771E700EE8ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9QXY7Q8ZUL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JSMCKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackw01.JSMCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04FB94631E1771E700EE8ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9QXY7Q8ZUL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JSMCKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackw01.JSMCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428295920FAFCE200DB90AB /* Build configuration list for PBXNativeTarget "JSMCKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428295720FAFCE200DB90AB /* Debug */,
+				0428295820FAFCE200DB90AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB94531E1771E700EE8ECA /* Build configuration list for PBXProject "JSMCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB945F1E1771E700EE8ECA /* Debug */,
+				04FB94601E1771E700EE8ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB94611E1771E700EE8ECA /* Build configuration list for PBXNativeTarget "JSMCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB94621E1771E700EE8ECA /* Debug */,
+				04FB94631E1771E700EE8ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FB94501E1771E700EE8ECA /* Project object */;
+}
