@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../JSMCKit/Info.plist">
+      location = "group:../JSMCKit/SMC.h">
+   </FileRef>
+   <FileRef
+      location = "group:../JSMCKit/SMC.m">
    </FileRef>
    <FileRef
       location = "self:">

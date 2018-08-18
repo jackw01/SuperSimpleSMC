@@ -26,7 +26,7 @@
 
     SMC *smc = [SMC smc];
 
-    NSLog(@"Ambient light (lux): %d\n", [smc ambientLightInLux]);
+    NSLog(@"Ambient light (lux): %d", [smc ambientLightInLux]);
 
     // Get number of fans
     unsigned int numberOfFans = [smc numberOfFans];
@@ -39,7 +39,7 @@
         NSLog(@"Fan %d max speed: %f", f, [smc maximumSpeedOfFan:f]);
     }
 
-    NSLog(@"\nMax CPU temp: %f\n", [smc cpuTemperatureInDegreesCelsius]);
+    NSLog(@"Max CPU temp: %f", [smc cpuTemperatureInDegreesCelsius]);
 
     // Temps
     for (NSString *key in smc.workingTempKeys) {
