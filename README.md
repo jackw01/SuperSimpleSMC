@@ -1,6 +1,9 @@
 # SuperSimpleSMC
 Better SMC framework for macOS with support for more sensors including voltage/current/power
 
+## What is this for?
+This framework allows you to read data from system sensors in all Intel Macs through the System Management Controller.
+
 ## Features
 * Easy to use
 * No dependencies and small size
